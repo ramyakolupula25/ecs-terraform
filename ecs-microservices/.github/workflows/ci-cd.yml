@@ -1,6 +1,8 @@
 name: CI/CD - Build, Push to ECR & Deploy to ECS
 
 on:
+
+ workflow_dispatch:
   push:
     branches: [main]
   pull_request:
